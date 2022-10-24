@@ -1,0 +1,21 @@
+{
+    "name": "eciur/windows-maker",
+    "description": "Windows maker",
+    "type": "project",
+    "require-dev": {
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "emilisz",
+            "email": "eciurlionis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": ["app/"]
+    }
+}
