@@ -48,6 +48,8 @@ class ComposerStaticInitd8d0bab2c1857c8b6d641f4f353c7d75
         'App\\Classes\\Employees\\Master' => __DIR__ . '/../..' . '/app/Classes/Employees/Master.php',
         'App\\Classes\\PlasticWindow' => __DIR__ . '/../..' . '/app/Classes/WindowsTypes/PlasticWindow.php',
         'App\\Classes\\WindowMaker' => __DIR__ . '/../..' . '/app/Classes/WindowMaker.php',
+        'App\\Classes\\WindowsMakerWithColor' => __DIR__ . '/../..' . '/app/Classes/WindowsMakerWithColor.php',
+        'App\\Classes\\WindowsMakerWithWorker' => __DIR__ . '/../..' . '/app/Classes/WindowsMakerWithWorker.php',
         'App\\Interfaces\\ColorInterface' => __DIR__ . '/../..' . '/app/Interfaces/ColorInterface.php',
         'App\\Interfaces\\TypeInterface' => __DIR__ . '/../..' . '/app/Interfaces/TypeInterface.php',
         'App\\Interfaces\\WorkerInterface' => __DIR__ . '/../..' . '/app/Interfaces/WorkerInterface.php',

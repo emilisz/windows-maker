@@ -1,14 +1,15 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\Classes\WindowMaker;
 use App\Classes\AluminumWindow;
-use App\Classes\PlasticWindow;
-use App\Classes\Colors\Brown;
 use App\Classes\Colors\Red;
+use App\Classes\PlasticWindow;
+use App\Classes\WindowsMakerWithColor;
+use App\Classes\WindowsMakerWithWorker;
 
-
-$t = new WindowMaker(new AluminumWindow(), new Brown());
+//PART 1
+$t = new WindowsMakerWithWorker(new AluminumWindow());
 echo $t->install();
-$a = new WindowMaker(new PlasticWindow(), new Red());
+//PART 2
+$a = new WindowsMakerWithColor(new PlasticWindow(),new Red());
 echo $a->install();

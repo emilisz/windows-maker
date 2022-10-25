@@ -21,4 +21,5 @@ class AluminumWindow  implements TypeInterface
     {
         return $this->worker->getTitle();
     }
+
 }

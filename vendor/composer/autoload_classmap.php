@@ -14,6 +14,8 @@ return array(
     'App\\Classes\\Employees\\Master' => $baseDir . '/app/Classes/Employees/Master.php',
     'App\\Classes\\PlasticWindow' => $baseDir . '/app/Classes/WindowsTypes/PlasticWindow.php',
     'App\\Classes\\WindowMaker' => $baseDir . '/app/Classes/WindowMaker.php',
+    'App\\Classes\\WindowsMakerWithColor' => $baseDir . '/app/Classes/WindowsMakerWithColor.php',
+    'App\\Classes\\WindowsMakerWithWorker' => $baseDir . '/app/Classes/WindowsMakerWithWorker.php',
     'App\\Interfaces\\ColorInterface' => $baseDir . '/app/Interfaces/ColorInterface.php',
     'App\\Interfaces\\TypeInterface' => $baseDir . '/app/Interfaces/TypeInterface.php',
     'App\\Interfaces\\WorkerInterface' => $baseDir . '/app/Interfaces/WorkerInterface.php',
