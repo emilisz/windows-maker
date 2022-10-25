@@ -9,6 +9,6 @@ use App\Classes\Colors\Red;
 
 
 $t = new WindowMaker(new AluminumWindow(), new Brown());
-$t->install();
+echo $t->install();
 $a = new WindowMaker(new PlasticWindow(), new Red());
-$a->install();
+echo $a->install();

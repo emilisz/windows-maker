@@ -11,8 +11,8 @@ class WindowMaker
     {
     }
 
-    public function install():void
+    public function install():string
     {
-        echo " This a ". $this->type->getTitle() .". I was installed by ". $this->type->selectWorker().". I am ". $this->color->getColor(). PHP_EOL;
+        return "This a ". $this->type->getTitle() .". I was installed by ". $this->type->selectWorker().". I am ". $this->color->getColor(). PHP_EOL;
     }
 }

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\FirstTest::testIfReturnsCorrectValue":3,"Tests\\FirstTest::testClassConstructor":3},"times":{"Tests\\FirstTest::testTrueAssetsToTrue":0.007,"Tests\\FirstTest::testIfReturnsCorrectValue":0,"Tests\\FirstTest::testClassConstructor":0.011}}
